@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.zoom:hover{
+  transform: scale(1.2);
+  transition: all ease 700ms;
+  background:rebeccapurple;
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 3px;
+}
